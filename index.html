@@ -1,6 +1,96 @@
-<meta property="og:title" content="مهدی مهرپویا | مهندس نرم‌افزار و امنیت">
-<meta property="og:description" content="سایت‌های ایمن و حرفه‌ای می‌سازم.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="YOUR_WEBSITE_URL">
-<!-- یک عکس پیش‌نمایش جذاب هم اینجا بگذارید -->
-<meta property="og:image" content="preview-image.jpg">
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-mode="mono">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مهدی مهرپویا | مهندس نرم‌افزار، امنیت و طراحی سایت</title>
+  <meta name="description" content="مهدی مهرپویا، مهندس نرم‌افزار و IT با مدرک کارشناسی ارشد کامپیوتر. متخصص امنیت و طراحی سایت.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try {
+      var m = localStorage.getItem("mode");
+      if (m === "red" || m === "mono") document.documentElement.setAttribute("data-mode", m);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">مهدی مهرپویا</a>
+      <nav class="nav" aria-label="منوی اصلی">
+        <a class="link" href="index.html" aria-current="page">معرفی</a>
+        <a class="link" href="skills.html">توانایی‌ها و خدمات</a>
+        <button class="mode-toggle" type="button" data-toggle-mode aria-pressed="false">
+          <span class="track" aria-hidden="true"></span>
+          نور قرمز
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <section class="hero">
+        <div>
+          <h1>مهدی مهرپویا</h1>
+          <p class="role">مهندس نرم‌افزار و IT، با تمرکز بر امنیت و طراحی سایت</p>
+          <p class="tagline">سایت‌هایی می‌سازم که هم دیده می‌شوند، هم هک نمی‌شوند. هر سیستمی که طراحی می‌کنم را اول از چشم یک مهاجم نگاه می‌کنم و بعد تحویل می‌دهم.</p>
+          <div class="actions">
+            <a class="btn primary" href="skills.html">توانایی‌ها و خدمات</a>
+            <a class="btn ghost" href="https://github.com/Mah13821391" target="_blank" rel="noopener">گیت‌هاب من</a>
+          </div>
+        </div>
+
+        <button class="portrait" type="button" data-toggle-mode aria-label="تغییر عکس بین سیاه‌وسفید و نور قرمز">
+          <img class="img-bw" src="photo-bw.jpg" alt="مهدی مهرپویا، عکس سیاه‌وسفید زیر نور خطی">
+          <img class="img-red" src="photo-red.jpg" alt="مهدی مهرپویا با هودی زیر نور قرمز">
+        </button>
+      </section>
+
+      <section class="block about-grid" id="about">
+        <h2>درباره من</h2>
+        <div>
+          <p>من مهدی هستم، مهندس نرم‌افزار و IT. کارم ساختن چیزهایی است که روی اینترنت می‌ایستند: سایت، سرویس و ابزار. کنارش یاد گرفته‌ام که چطور می‌شکنند، تا موقع ساختن جلوی همان شکستن‌ها را بگیرم.</p>
+          <p class="muted">برای من امنیت یک مرحلهٔ آخر پروژه نیست. از اولین خط کد و اولین طرح صفحه شروع می‌شود و تا روز آخر کنار پروژه می‌ماند.</p>
+          <div class="degree">
+            <strong>کارشناسی ارشد کامپیوتر</strong>
+            <span>پایهٔ علمی کارم در مهندسی کامپیوتر</span>
+          </div>
+        </div>
+      </section>
+<section class="block" id="focus">
+        <h2>روی چه چیزی تمرکز دارم</h2>
+        <ul class="rows">
+          <li>
+            <h3>امنیت</h3>
+            <p>بررسی آسیب‌پذیری‌های سایت، پیدا کردن حفره‌ها قبل از مهاجم‌ها و بستن‌شان با راه‌حل مشخص.</p>
+          </li>
+          <li>
+            <h3>طراحی سایت</h3>
+            <p>سایت‌های سریع، ریسپانسیو و خوش‌ظاهر که روی موبایل و کامپیوتر درست کار می‌کنند و اولین برخورد را به یادماندنی می‌کنند.</p>
+          </li>
+          <li>
+            <h3>مهندسی نرم‌افزار</h3>
+            <p>کد تمیز، ساختار قابل‌نگهداری و استفادهٔ درست از ابزارهایی مثل گیت، تا پروژه با بزرگ شدن به هم نریزد.</p>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© مهدی مهرپویا</span>
+      <a href="https://github.com/Mah13821391" target="_blank" rel="noopener">github.com/Mah13821391</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
